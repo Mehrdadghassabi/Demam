@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="350dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:text="&quot;Help!...Help!...somebody help us!...&quot;students screaming loudly. ali and mehrdad have locked all the rooms of the school and activated a bomb in the last (fifth)floor and the kids are stuck in the classes. you have to save these kids but you don't have any access to the keys of the room. so your only chance of saving the kids is to neutralize the bomb.The bomb has 3 digits. except for the first floor we have a case in each floor. in each case there is only one number of the bomb(one of these digits are repeative). also we have a key in each floor and each one of them are used for opening each case. there are also a letter in each floor.these letters give you a hint about the digits of the bomb. in each floor you have only 4 choices between letter,case(except for the first floor that we dont have a case),key and also if in each floor you realize that you know the digits of the bomb you can straightly go to the bomb and use your chance for opening the bomb but becarefull if you enter the wrong numbers we will all be dead:((."
+        android:textColor="@color/colorwhite"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="82dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="164dp"
+        android:background="@drawable/myimage2"
+        android:onClick="click"
+        android:text="ok"
+        android:textColor="@color/colorwhite1"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/colorred1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="345dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textColor="@color/colorred1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+
+</android.support.constraint.ConstraintLayout>
